@@ -58,7 +58,7 @@ sc <- spark_connect(
 ````
 ### Specifying configs
 
-When you have a good grasp of how Spark works, you understand what processing needs doing and most importantly the data, you can look to introduce some customised configurations to your Spark session. The session builder will look something like this,
+When you have a good grasp of how Spark works, you understand what processing needs doing and most importantly understand the data, you can look to introduce some customised configurations to your Spark session. The session builder will look something like this,
 
 ````{tabs}
 
@@ -81,7 +81,7 @@ sc <- spark_connect(
 ```
 
 ````
-The most popular configs to set are listed and explained in the [Config glossary](#config-glossary) section below. Some example Spark configurations are given in [example Spark configurations] section. 
+The most popular configs to set are listed and explained in the [Config glossary](#config-glossary) section below. Some example Spark configurations are given in [example Spark configurations](/example-spark-sessions.md) section. 
 
 See the page on `spark-defaults.conf` for setting these properties in other ways.
 
