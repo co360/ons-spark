@@ -152,11 +152,11 @@ Sets the number of partitions to use for a DataFrame after a shuffle. The defaul
 
 **Console Progress Bars**  
 `.config("spark.ui.showConsoleProgress", "true")`  
-This setting is set to true by default in DAP, but should be set to false in order to correctly display output in CDSW.
+This setting is set to true by default in DAP, but because of a bug in CDSW 1.6 it should be set to false in order to correctly display outputs in the workbench console.
 
 ## Calculating Resource Allocation
 
-Let's take the large session from the [Example Spark Sessions](http://np2rvlapxx507/DAP_CATS/guidance/-/blob/master/spark_session_sizes.ipynb) and explain the allocation of resource in more detail.
+Let's take the large session from the [Example Spark Sessions](/example-spark-sessions.md) and explain the allocation of resource in more detail.
 
 ```
 spark = (
